@@ -702,18 +702,21 @@ section.portfolio {
 
 	}
 	.timeline-item-wrap {
-	.timeline-image {
-		position: relative;
-		background-attachment: fixed;
-		background-position: right;
-		background-size: auto 50vh;
-		background-repeat: no-repeat;
-		height: 100vh;
-		background-color: @gray-lightest;
+		.timeline-image {
+			position: relative;
+			background-attachment: fixed;
+			background-position: right;
+			background-size: auto 50vh;
+			background-repeat: no-repeat;
+			height: 100vh;
+			background-color: @gray-lightest;
 			&.unfix {
 				background-attachment:initial;
 			}
-	}
+			@media(max-width: @sm) {
+				background-attachment: local;
+			}
+		}
 	}
 }
 
