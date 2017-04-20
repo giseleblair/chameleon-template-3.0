@@ -15,7 +15,7 @@
 					<h3>{{ ec.employee_category }}</h3>
 					<hr/>
 					<div class="row">
-						{{ each employees as employee where employee.employee_category = {ec.zid} sort by employee.employee_category}}
+						{{ each employees as employee where employee.employee_category = {ec.zid} sort by employee.sort_order }}
 						{{ if {page.number_of_cols} == 12 && {index} % 1 = 0 && {index} != 1 }}
 					</div>
 					<div class="row">
