@@ -139,12 +139,12 @@
 								{{ if {form.field_type_toggle} == 0 }}
 								<div class="form-group">
 									<label for="id{{form.zid}}">{{ form.custom_field_name }}</label>
-									<input name="{{ form.custom_form_name }}" type="text" class="form-control" id="id{{form.zid}}" />
+									<input name="{{ form.custom_field_name }}" type="text" class="form-control" id="id{{form.zid}}">
 								</div>
 								{{ else }}
 								<div class="form-group">
 									<label for="id{{form.zid}}">{{ form.custom_field_name }}</label>
-									<textarea name="{{ form.custom_form_name }}" class="form-control" id="id{{form.zid}}" rows="3"></textarea>
+									<input name="{{ form.custom_field_name }}" class="form-control" id="id{{form.zid}}" rows="3">
 								</div>
 								{{ end-if }}
 								{{ end-each }}
