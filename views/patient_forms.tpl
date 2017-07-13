@@ -38,9 +38,8 @@
 							<p class="large">{{ page.embedded_form_instrux }}</p>
 						</div>
 					</div>
-					<form class="form-group" method="post" data-toggle="validator" role="form">
-						<input type="hidden" name="zlf" value="{{ page.page_title }} Form" />
-						<input type="hidden" name="zcf" value="1" />
+					<form class="form-group" method="post" data-zlf="{{ page.page_title }}" data-toggle="validator" role="form">
+						
 						{{ if {page.send_form_to} }}
 						<input type="hidden" name="email_override" value="{{ page.send_form_to }}" />
 						{{ end-if }}
