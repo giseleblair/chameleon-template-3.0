@@ -62,6 +62,9 @@
 			pauseOnHover: false,
 			pauseOnFocus: false,
 		});
+		$("video").each(function(){
+				$(this).get(0).play();
+			});
 	});
 </script>
 {{ include script-bg-vid }}
