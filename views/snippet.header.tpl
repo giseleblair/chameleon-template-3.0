@@ -26,7 +26,7 @@
 						<!-- Appt request button and phone go here-->
 						<div class="tel-align pull-right">
 							<a class="btn btn-primary" style="font-size: {{ clippings.telephone_number_height }}px;" id="tel" href="tel: {{ clippings.phone }}"><i class="fa fa-phone-square" aria-hidden="true"></i>  {{ clippings.phone }}</a>
-							<a class="btn btn-primary" style="font-size: {{ clippings.request_button_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" ><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>  Request Appointment</a>
+							<a class="btn btn-primary" style="font-size: {{ clippings.request_button_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" target="_blank" ><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>  Request Appointment</a>
 						</div>
 						<div id="menu-toggle" class="">
 							<span></span>
