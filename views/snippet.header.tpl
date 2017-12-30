@@ -88,7 +88,7 @@
 						</div>
 						<div id="tel-appt">
 							<h4><a href="tel: {{ clippings.phone }}" >tel: {{ clippings.phone }}</a></h4>
-							<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+							<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
 							<ul class="list-inline social-buttons pull-right text-center">
 								{{each social_links as social}}
 								<li class="social-{{social.font_awesome_icon}}">
