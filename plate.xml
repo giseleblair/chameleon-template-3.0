@@ -48,7 +48,7 @@
                   <item link_title="" path_part="">
                       <name><![CDATA[Instagram]]></name>
                       <font_awesome_icon><![CDATA[instagram]]></font_awesome_icon>
-                      <url><![CDATA[https://www.pinterest.com]]></url>
+                      <url><![CDATA[https://www.instagram.com]]></url>
                   </item>
               </items>
           </dataset>
@@ -666,7 +666,7 @@
                 </item>
                 <item>
                   <form_title><![CDATA[Anaesthesia Consent Form]]></form_title>
-                  <form_description><![CDATA[<p>This for is required for any procedure that involves sedation.</p>]]></form_description>
+                  <form_description><![CDATA[<p>This form is required for any procedure that involves sedation.</p>]]></form_description>
                   <form_pdf><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-sample.pdf]]></form_pdf>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
