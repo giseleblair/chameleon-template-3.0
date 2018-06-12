@@ -330,18 +330,5 @@
                 <locked>0</locked>
                 <value>#22757d</value>
             </color>
-
-            <text name="nav-at-font-color" name_friendly=" ">
-            </text>
-            <text name="navbar-height" name_friendly=" ">
-            </text>
-            <text name="nav-link-padding-left" name_friendly=" ">
-            </text>
-            <text name="nav-link-padding" name_friendly=" ">
-            </text>
-            <text name="navbar-default-link-hover-color" name_friendly=" ">
-            </text>
-            <text name="navbar-default-link-hover-bg" name_friendly=" ">
-            </text>
         </variables>
     </plate_variables>
