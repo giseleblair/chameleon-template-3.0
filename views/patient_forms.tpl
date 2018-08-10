@@ -18,7 +18,7 @@
 					<p class="form-rows">{{ page.download_form_note}}</p>
 
 							<br/>
-					{{ if {page.zid} == {patient_forms.first().zid} }}
+					{{ if {page.zuid} == {patient_forms.first().zuid} }}
 					{{ each online_forms as of sort by of.sort_order }}
 					<blockquote>
 						<div class="form-rows">
